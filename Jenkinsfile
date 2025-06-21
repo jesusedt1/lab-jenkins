@@ -56,7 +56,7 @@ pipeline {
 
         stage('Despliegue') {
             steps {
-                echo 'Desplegando en entorno de pruebas......'
+                echo 'Desplegando en entorno de pruebas...........'
             }
         }
     }
