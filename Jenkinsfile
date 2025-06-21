@@ -44,19 +44,19 @@ pipeline {
 
         stage('Construir') {
             steps {
-                echo 'Construyendo el proyecto...'
+                echo 'Construyendo el proyecto......'
             }
         }
 
         stage('Pruebas') {
             steps {
-                echo 'Ejecutando pruebas...'
+                echo 'Ejecutando pruebas......'
             }
         }
 
         stage('Despliegue') {
             steps {
-                echo 'Desplegando en entorno de pruebas...'
+                echo 'Desplegando en entorno de pruebas......'
             }
         }
     }
